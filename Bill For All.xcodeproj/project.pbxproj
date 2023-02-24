@@ -11,6 +11,7 @@
 		59DCF85F29A9397900DF3D05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCF85E29A9397900DF3D05 /* ContentView.swift */; };
 		59DCF86129A9397A00DF3D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DCF86029A9397A00DF3D05 /* Assets.xcassets */; };
 		59DCF86429A9397A00DF3D05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DCF86329A9397A00DF3D05 /* Preview Assets.xcassets */; };
+		59DCF86B29A9550500DF3D05 /* DividirCuentaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCF86A29A9550500DF3D05 /* DividirCuentaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		59DCF85E29A9397900DF3D05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59DCF86029A9397A00DF3D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59DCF86329A9397A00DF3D05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59DCF86A29A9550500DF3D05 /* DividirCuentaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividirCuentaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				59DCF85E29A9397900DF3D05 /* ContentView.swift */,
 				59DCF86029A9397A00DF3D05 /* Assets.xcassets */,
 				59DCF86229A9397A00DF3D05 /* Preview Content */,
+				59DCF86A29A9550500DF3D05 /* DividirCuentaView.swift */,
 			);
 			path = "Bill For All";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DCF85F29A9397900DF3D05 /* ContentView.swift in Sources */,
+				59DCF86B29A9550500DF3D05 /* DividirCuentaView.swift in Sources */,
 				59DCF85D29A9397900DF3D05 /* Bill_For_AllApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,8 +271,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bill For All/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RXMV9FUYF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to your camera to take photos and videos for use in the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,8 +302,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bill For All/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RXMV9FUYF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to your camera to take photos and videos for use in the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
